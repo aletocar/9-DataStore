@@ -1,0 +1,4 @@
+# 1. Correr el proyecto localmente
+# 2. Entrar en consola http://localhost:8000/ y ver que se guarden los datos localmente
+# 3. Hacer deploy y correr el proyecto en appengine
+# 4. Verificar en consola de desarrollador que los datos se esten guardando correctamente

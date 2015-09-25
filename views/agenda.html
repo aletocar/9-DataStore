@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <body>
+    {{usuario}}
+    {% for perso in listaPersonas %}
+      <b>{{ perso.nombre }}</b>
+      <blockquote>{{ perso.edad }}</blockquote>
+      <blockquote>{{ perso.email }}</blockquote>
+      <br>
+   {% endfor %}
+
+    <p><a href="/">Agregar otra persona</p>
+
+    <hr>
+        <a href="{{ url }}">{{ textoLink }}</a>
+
+  </body>
+</html>
+{% endautoescape %}

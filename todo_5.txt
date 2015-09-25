@@ -1,0 +1,14 @@
+#1. Agregar clase Auditoria en models.py que como propiedades la identidad y el email del usuario logueado que da de alta una persona.
+
+En la clase Persona se necesita tener una propiedad auditoria del tipo StrtucturedProperty, ej:
+
+auditoria= ndb.StructuredProperty(Auditoria)
+
+#2. Hacer deploy en appengine y verificar que los datos se esten guardando correctamente
+
+
+
+
+
+
+

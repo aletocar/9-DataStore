@@ -1,0 +1,16 @@
+#TODOs
+
+# Crear archivo models.py y agregar clase Persona con sus propiedades, copiar siguiente código
+from google.appengine.ext import ndb
+
+class Persona(ndb.Model):
+    nombre = ndb.StringProperty(indexed=True)
+    edad = ndb.IntegerProperty(indexed=False)
+    email = ndb.StringProperty()
+
+#Crear archivo agendakey.py y copiar siguiente código
+from google.appengine.ext import ndb
+
+def agendaKey(nombreAgenda):
+    #El datastore se creara para entidades de tipo Agenda, con el nombreAgenda indicado
+    return ndb.Key('Agenda', nombreAgenda)

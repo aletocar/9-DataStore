@@ -1,0 +1,4 @@
+#En agendaJinja2.py en el bloque de imports agregar siguiente código
+
+from models import Persona
+from agendakey import agendaKey
